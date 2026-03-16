@@ -1,15 +1,15 @@
-X1 = "Hello, World!"
-X2 = 42
-X3 = 3.14
-X4 = True
-X5 = None
-print(X1)
-print(type(X1))
-print(X2)
-print(type(X2))
-print(X3)
-print(type(X3))
-print(X4)
-print(type(X4))
-print(X5)
-print(type(X5))
+x1 = "Hello, World!"
+x2 = 42
+x3 = 3.14
+x4 = True
+x5 = None
+print(x1)
+print(type(x1))
+print(x2)
+print(type(x2))
+print(x3)
+print(type(x3))
+print(x4)
+print(type(x4))
+print(x5)
+print(type(x5))
