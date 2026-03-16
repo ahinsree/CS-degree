@@ -1,0 +1,6 @@
+name = input("What is your name? ")
+age = int(input("What is your age? "))
+height = float(input("Your height in CM: "))
+print(f"Hello {name}! Welcome to CS.")
+print(f"In 5 years, you'll be {age + 5} years old.")
+print(f"Your height in meters is {height / 100:.2f} m.")
