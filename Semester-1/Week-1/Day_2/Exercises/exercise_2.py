@@ -1,0 +1,5 @@
+age = int(input("Enter your age: "))
+score = int(input("Enter your score: "))
+print(f"Adult AND Score > 75: {age >= 18 and score > 75}")
+print(f"Under 18 OR Score < 50: {age < 18 or score < 50}")
+print(f"NOT Adult: {not age >= 18}")
