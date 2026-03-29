@@ -34,7 +34,7 @@ else:
 for i in range(1, 6):
     if i == 3:
         break
-    print(i, sep=' ', end=' ')
+    print(i, end=' ')
     print()
 else:
     print("This will not print because break was hit.❌")
