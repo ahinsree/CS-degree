@@ -5,7 +5,7 @@ count = 0
 while True:
     num = int(input("Enter a number: "))
     if num < 0:
-        print(f"your entered {count} number befor stopping")
+        print(f"Your entered {count} numbers before stopping")
         break
     count += 1 
     
