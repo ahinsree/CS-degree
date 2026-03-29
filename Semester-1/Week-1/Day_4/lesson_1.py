@@ -4,8 +4,8 @@ even if the condition is still true.'''
 for i in range(1, 11):
     if i == 6:
         break
-    print(i,sep=' ',end=' ')
-print("",end='\n')
+    print(i, end=' ')
+print( )
 
 # search through a list:
 students = ["Alice", "Bob", "Charlie", "David"]
