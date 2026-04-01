@@ -37,7 +37,7 @@ highest_avg = 0
 lowest_avg = 100
 class_total = 0
 
-for student_num in range(1, num_students +1):
+for student_num in range(1, num_students + 1):
     print(f"\n{'-' * 50}")
     print(f"Student {student_num} of {num_students}")
     print(f"{'-' * 50}")
