@@ -41,7 +41,7 @@ for student_num in range(1, num_students + 1):
     print(f"\n{'-' * 50}")
     print(f"Student {student_num} of {num_students}")
     print(f"{'-' * 50}")
-    name = input("Enter student's name: ")
+    name = input("Enter student's name: ") 
     # Get scores for 3 subjects
     subjects = ["Math", "Science", "English"]
     scores = []
