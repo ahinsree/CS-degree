@@ -20,3 +20,10 @@ def greet(name, greeting = "Hello"):
 greet("Ahinsree")  # Output: Hello, Ahinsree! .👋
 greet("Alice", "Welcome")  # Output: Welcome, Alice! .👋
 greet("Bob", "Hi")  # Output: Hi, Bob! .👋
+
+
+def describe(name, age, city):
+    print(f"{name} is {age} years old and lives in {city}.")
+
+describe("Alice", 25, "New York")  # Output: Alice is 25 years old and lives in New York.
+describe("Bob", 30, "Los Angeles")  # Output: Bob is 30 years old and lives in Los Angeles.
