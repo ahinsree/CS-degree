@@ -14,6 +14,7 @@ def greet(name):
     print(f"Hello {name}!")
     print("Welcome to CS Academy")
     print("---")
+# Call it as many times as you want!
 greet("Alice")
 greet("Bob")
 greet("Charlie")
