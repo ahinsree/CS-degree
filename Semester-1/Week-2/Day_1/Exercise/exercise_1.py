@@ -38,4 +38,6 @@ def greet_user(name, age):
     print(f"Hello {name}! You are {age} years old.")
     
 if __name__ == "__main__":
+    main1()
+    main2()
     main3()
