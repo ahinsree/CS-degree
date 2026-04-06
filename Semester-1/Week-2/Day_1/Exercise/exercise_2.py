@@ -19,14 +19,14 @@ def main():
     score = int(input("Enter a score: "))
     print(f"Grade for {score} is {get_grade(score)}")
 
-def get_grade(scoore):
-    if 90 <= scoore <= 100:
+def get_grade(score):
+    if 90 <= score <= 100:
         return "A🏆"
-    elif 80 <= scoore < 90:
+    elif 80 <= score < 90:
         return "B✅"
-    elif 70 <= scoore < 80:
+    elif 70 <= score < 80:
         return "C📘"
-    elif 60 <= scoore < 70:
+    elif 60 <= score < 70:
         return "D⚠"
     else:
         return "F❌"

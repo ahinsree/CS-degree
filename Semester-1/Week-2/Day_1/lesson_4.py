@@ -1,14 +1,14 @@
-def celcious_to_fahrenheit(celsious):
-    '''convert a temperature from celcious to fahrenheit 
+def celsius_to_fahrenheit(celsius):
+    """convert a temperature from celsius to fahrenheit 
     parameters: 
-               celsious(float): a temperature in celcious.
+               celsius(float): a temperature in celsius.
     return: 
-            floatL: a temperature in fahrenheit.
-    '''
-    return (celsious * 9/5) + 32
+            float: a temperature in fahrenheit.
+    """
+    return (celsius * 9/5) + 32
 # Access the docstring anytime
-help(celcious_to_fahrenheit)
-print(celcious_to_fahrenheit.__doc__)
+help(celsius_to_fahrenheit)
+print(celsius_to_fahrenheit.__doc__)
 
 #Function Best Practices:
 # ✅ 1. ONE function = ONE job

@@ -1,9 +1,9 @@
 # No parameters — does the same thing every time
-def Say_hello():
+def say_hello():
     print("Hello! .👋")
 
-Say_hello()  # Output: Hello! .👋
-Say_hello()  # Output: Hello! .👋    
+say_hello()  # Output: Hello! .👋
+say_hello()  # Output: Hello! .👋    
 
 # One parameter — can be customized with different input
 def greet(name):

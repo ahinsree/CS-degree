@@ -14,8 +14,7 @@ def get_score():
         score = int(input("Enter your score (0-100): "))
         if 0 <= score <= 100:
             return score
-        else:
-            print("Invalid score. Please enter a number between 0 and 100.")
+        print("Invalid score. Please enter a number between 0 and 100.")
 
 def get_grade(score):
     if 90 <= score <= 100:
