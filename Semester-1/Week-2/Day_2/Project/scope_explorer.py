@@ -57,7 +57,7 @@ def demo_nonlocal():
     increment()
     increment()
     increment()
-    print(f"count afer three increment = {count}")
+    print(f"count after three increment = {count}")
     
 # ── Main ──────────────────────────────────────
 def main():
@@ -67,10 +67,10 @@ def main():
     demo_legb()
     demo_nonlocal()
     
-    print(f"\n {"=" * 30}")
-    print(f" Total demo run: {total_run}")
-    print(f" {"=" * 30}")
-    
+    divider = "=" * 30
+    print(f"\n{divider}")
+    print(f"Total demo runs: {total_run}")
+    print(f"{divider}")    
 if __name__ == "__main__":
     main()
     
