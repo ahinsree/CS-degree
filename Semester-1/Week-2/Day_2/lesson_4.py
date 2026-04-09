@@ -29,7 +29,7 @@ counter()
 # Real-world use — factory functions:
 
 def make_multiplier(factor):
-    """Returns a functin that multiplies by factor."""
+    """Returns a function that multiplies by factor."""
     def multiply(number):
         return number * factor               # factor from enclosing scope
     return multiply                          # return the function itself!
