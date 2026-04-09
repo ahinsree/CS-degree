@@ -16,7 +16,7 @@ def outer():
     # Enclosing scope - E
     x = "enclosing x"
     def inner():
-        #Local sope - L
+        #Local scope - L
         x = "local x"
         print(x)    # finds x in LOCAL first -> "local x"
     inner()
