@@ -14,7 +14,7 @@ def function_a():
     print(f"A: x = {x}")
 
 def function_b():
-    x =99 # x belongs to function_b only
+    x = 99 # x belongs to function_b only
     print(f"B: x = {x}")
 
 function_a()             # A: x = 10
