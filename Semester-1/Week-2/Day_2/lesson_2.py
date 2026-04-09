@@ -1,4 +1,4 @@
-# Globel Scope & global keyword
+# Global Scope & global keyword
 
 # Global variable - defined outside all functions and can be accessed anywhere in the program
 name = "Ahinsree"    # Global variable
@@ -12,7 +12,7 @@ print(name)  # Output: Ahinsree
 
 counter = 0  # Global variable
 def increment():
-     counter += 1    #❌ UnboundLocalError!
+    counter += 1    #❌ UnboundLocalError!
     # Python sees 'counter =' and thinks it's local
     # but then tries to read it before assigning → crash!
     
