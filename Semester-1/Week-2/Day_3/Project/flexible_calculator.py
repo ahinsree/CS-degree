@@ -79,7 +79,7 @@ def main():
         decimals = input("Round to how many decimal places? (default 2): ")
         round_to = int(decimals) if decimals else 2
 
-        result = calculator(*numbers, operation=operation, round_to=round_to)
+        result = calculator(*numbers, operation = operation, round_to = round_to)
         print(f"\n  Result: {result}")
 
 if __name__ == "__main__":
