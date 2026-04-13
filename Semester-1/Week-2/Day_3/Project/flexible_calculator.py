@@ -52,9 +52,9 @@ def show_menu():
     print("    FLEXIBLE CALCULATOR 🧮")
     print("=" * 45)
     print("1. Add   (any number of values)")
-    print("2. Subtract   (any number of value)")
-    print("3. Multiply   (any number of value)")
-    print("4. Divide     (exactly two value)")
+    print("2. Subtract   (any number of values)") 
+    print("3. Multiply   (any number of values)")  
+    print("4. Divide     (exactly 2 values)")      
     print("5. Exit")
     print("=" * 45)
     
