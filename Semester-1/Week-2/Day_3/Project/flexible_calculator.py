@@ -4,18 +4,18 @@
 # ============================================
 
 def add(*args):
-    "Add any number of value"
+    """Add any number of value"""
     return sum(args)
 
 def subtract(start, *args):
-    "Subtract all subsequent values from start."""
+    """Subtract all subsequent values from start."""
     result = start
     for n in args:
         result -= n
     return result
 
 def multiply(*args):
-    "Multiply any number of values"
+    """Multiply any number of values"""
     result = 1
     for n in args:
         result *= n
@@ -40,7 +40,7 @@ def calculator(*args, operation = "add", **options):
         result = subtract(*args)
     elif operation == "multiply":
         result = multiply(*args)
-    elif operation == "divide":
+    elif operation == "divide" and len(args) == 2:
         result = divide(*args)
     else:
         return "⚠ Invalid operation."
@@ -51,7 +51,7 @@ def show_menu():
     print("\n" + "=" * 45)
     print("    FLEXIBLE CALCULATOR 🧮")
     print("=" * 45)
-    print("1. Add   (any number of value)")
+    print("1. Add   (any number of values)")
     print("2. Subtract   (any number of value)")
     print("3. Multiply   (any number of value)")
     print("4. Divide     (exactly two value)")
