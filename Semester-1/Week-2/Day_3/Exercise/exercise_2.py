@@ -6,9 +6,9 @@
 def build_sentence(**kwargs):
     name = kwargs.get("name", "Unknown")
     verb = kwargs.get("verb", "Unknown")
-    object = kwargs.get("object", "Unknown")
-    return f"{name} {verb} {object}"
-print(build_sentence(name="Alice", verb="loves", object="Python"))
+    obj = kwargs.get("object", "Unknown")
+    return f"{name} {verb} {obj}"
+print(build_sentence(name="Alice", verb="loves", obj="Python"))
 
 # Task 2: Write 'filter_adults(**people)'
 # people = name: age pairs

@@ -7,7 +7,7 @@ def add(*args):
 
 # Direction 2 - UNPACKING (outside function call)
 number = [1, 2, 3, 4, 5]
-print(add(*number)) # unpackes list INTO seperate arguments
+print(add(*number)) # unpacks list INTO separate arguments
 # Same as: add(1, 2, 3, 4, 5)
 
 # Unpacking a dictionary with **

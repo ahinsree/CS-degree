@@ -31,6 +31,6 @@ print(find_largest(3, 1, 4, 1, 5, 9))
 # print_all(" | ", "Alice", "Bob", "Charlie")
 # → Alice | Bob | Charlie
 
-def print_all(seperator, *args):
-    print(seperator.join(args))
+def print_all(separator, *args):
+    print(separator.join(args))
 print_all(" | ", "Alice", "Bob", "Charlie")
