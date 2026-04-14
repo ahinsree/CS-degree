@@ -12,8 +12,8 @@ print(square(5))
 square = lambda x: x**2
 print(square(7))
 """lambda parameters : expression
-        ↑                   ↑
-    keyword        single return value
+    ↑                     ↑
+keyword           single return value
                 (no return keyword needed)
 """
 
