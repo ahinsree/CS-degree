@@ -17,7 +17,7 @@ def recursive_sum(n):
         return 0
     else:
         return n + recursive_sum(n - 1)
-print(recursive_sum(10)) 
+print(recursive_sum(10))
 
 # ✅ Use RECURSION when:
 # - Problem is naturally self-similar (trees, graphs)
