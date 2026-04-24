@@ -13,8 +13,8 @@ print(iterative_sum(10))
 # ── Recursive sum ────────────────────────────
 def recursive_sum(n):
     """Sum 1 to n using recursion."""
-    if n == 1:
-        return 1
+    if n <= 0:
+        return 0
     else:
         return n + recursive_sum(n - 1)
 print(recursive_sum(10))
