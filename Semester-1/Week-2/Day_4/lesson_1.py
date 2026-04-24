@@ -6,12 +6,12 @@
 # Then you stop opening dolls
 
 # Without recursion — countdown with loop
-def countdow_loop(n):
+def countdown_loop(n):
     while n > 0:
         print(n)
         n -= 1
     print("Blastoff! 🚀")
-countdow_loop(5)
+countdown_loop(5)
 
 # Without recursion — countdown with loop
 def countdown(n):
