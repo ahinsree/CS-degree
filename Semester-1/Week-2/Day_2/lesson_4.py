@@ -50,3 +50,14 @@ variables from its enclosing scope. You'll use closures a lot in Week 13 (Decora
 """🎯 One-Line Understanding
 
 A closure is a function that “remembers” values from the environment in which it was created."""
+
+"""Closure Mechanics"""
+
+"""
+An inner function references a variable from its outer function
+
+The outer function returns the inner function
+
+The inner function remembers those variables even after the outer function finishes
+
+"""
