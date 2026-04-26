@@ -61,3 +61,14 @@ The outer function returns the inner function
 The inner function remembers those variables even after the outer function finishes
 
 """
+
+# Real world Applications:
+def make_price_multiplier(tax_rate):
+    """Returns a function that applies tax_rate to a price."""
+    def apply_tax(price):
+        return price * (1 + tax_rate)
+    return apply_tax
+calculate_vat = make_price_multiplier(0.20)  # 20% VAT
+calculate_sales_tax = make_price_multiplier(0.08)  # 8% Sales Tax
+print(calculate_vat(100))  # Output: 120.0
+print(calculate_sales_tax(100))  # Output: 108.0
