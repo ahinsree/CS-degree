@@ -1,6 +1,7 @@
 #Lambda Functions
 
-"""A lambda is a small, anonymous (nameless) one-line function. 
+"""
+   A lambda is a small, anonymous (nameless) one-line function. 
    Think of it as a throwaway function you create on the spot without using def.
 """
 # Regular function
