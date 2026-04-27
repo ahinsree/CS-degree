@@ -13,7 +13,7 @@ def countdown_loop(n):
     print("Blastoff! 🚀")
 countdown_loop(5)
 
-# Without recursion — countdown with loop
+# With recursion — countdown with function calling itself
 def countdown(n):
     if n == 0:
         print("Blastoff! 🚀")    # BASE CASE — stop here!
