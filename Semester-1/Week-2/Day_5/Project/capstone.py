@@ -130,7 +130,7 @@ def show_menu():
     
     """
     print(f"\n{'='*50}")
-    print(f"      PERSONAL FINANCE TRACKER💰")
+    print(f"      PERSONAL FINANCE TRACKER 💰")
     print(f"{'='*50}")
     print("1. Add Income")
     print("2. Add Expense")
