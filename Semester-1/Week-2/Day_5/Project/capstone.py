@@ -74,7 +74,7 @@ def sort_transactions(by = "amount", reverse = False):
     Sort transactions by a specified key using sorted + lambda.
     
     """
-    return sorted(transactions, key=lambda t: t[by], reverse=reverse)
+    return sorted(transactions, key=lambda t: abs(t[by]) if by == "amount" else t[by], reverse=reverse)
 
 def find_largest(lst, index = 0, current_max = None):
     """
