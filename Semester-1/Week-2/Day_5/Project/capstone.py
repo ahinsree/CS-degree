@@ -205,8 +205,8 @@ def main():
             print("  👋 Goodbye! Stay financially wise! 💰")
             break
         
-    else:
-        print(" ⚠ Invalid choice, please try again.")
+        else:
+            print(" ⚠ Invalid choice, please try again.")
         
 if __name__ == "__main__":
     main()
