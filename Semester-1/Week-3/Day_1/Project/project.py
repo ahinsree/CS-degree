@@ -80,7 +80,7 @@ def main():
     
     while True:
         print("\n1. Analyze your own text")
-        print("2. Analyze a prset example_text")
+        print("2. Analyze a preset example")
         print("3. Exit")
         choice = input("Choose an option (1-3): ").strip()
         if choice == "1":
@@ -93,11 +93,11 @@ def main():
             print("\nChoose an example text:")
             for i, ex in enumerate(example_text, 1):
                 print(f"  {i}. {ex[:45]}...")
-                ex = input("Choose an example (1-3): ").strip()
-                if ex in ["1", "2", "3"]:
-                    print_report(example_text[int(ex)-1], analyse_text(example_text[int(ex)-1]))
-                else:
-                    print("⚠ Invalid choice. Please choose 1, 2 or 3.")
+            ex = input("Choose an example (1-3): ").strip()
+            if ex in ["1", "2", "3"]:
+                print_report(example_text[int(ex)-1], analyse_text(example_text[int(ex)-1]))
+            else:
+                print("⚠ Invalid choice. Please choose 1, 2 or 3.")
         elif choice == "3":
             print("👋 Goodbye!")
             break

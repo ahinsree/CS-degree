@@ -28,7 +28,7 @@ print(is_pangram("The quick brown fox jumps over the lazy dog"))  # Output: True
 #         caesar_cipher("Hello", 3) → "Khoor"
 #         Hint: use ord() and chr()
 
-def casear_cipher(text, shift):
+def caesar_cipher(text, shift):
     """Shifts each letter by 'shift' positions."""
     result = ""
     for char in text:
@@ -38,4 +38,4 @@ def casear_cipher(text, shift):
         else:
             result += char
     return result
-print(casear_cipher("Hello", 3))  # Output: "Khoor"
+print(caesar_cipher("Hello", 3))  # Output: "Khoor"

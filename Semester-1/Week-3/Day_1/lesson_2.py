@@ -20,7 +20,7 @@ print(name[-1])   # 'e'  ← last character
 print(name[-2])   # 'e'
 print(name[-8])   # 'A'  ← first character
 
-# Usefull patterns:
+# Useful patterns:
 
 print(name[0])    # first character
 print(name[-1])   # last character
