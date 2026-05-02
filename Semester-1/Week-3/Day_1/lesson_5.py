@@ -43,10 +43,10 @@ def remove_vowels(s):
         if char not in "aeiouAEIOU":
             result += char
     return result
-print(remove_vowels(name))  # Output: "Hnsr"
+print(remove_vowels(name))  # Output: "hnsr"
 
 # Cleaner with join + comprehension:
 def remove_vowels_v2(s):
     """Remove all vowels from string."""
     return "".join(c for c in s if c not in "aeiouAEIOU")
-print(remove_vowels_v2(name))  # Output: "Hnsr"
+print(remove_vowels_v2(name))  # Output: "hnsr"
