@@ -11,7 +11,7 @@ name = "Ahinsree"
 # Basic slicing
 print(name[0:4])  # Output: "Ahin"
 print(name[4:8])  # Output: "sree"
-print(name[2:6])  # Output: "insr"
+print(name[2:6])  # Output: "insr" 
 
 # Omitting start or stop
 print(name[:4])   # Output: "Ahin" (start defaults to 0)
