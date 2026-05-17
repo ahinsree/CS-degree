@@ -1,7 +1,7 @@
 
-# ── The 5 case methods ──────────────────────────────────────────────────────────────────────
+# ── The 6 case methods ──────────────────────────────────────────────────────────────────────
 
-text = "hello, python world! "
+text = "hello, python world!"
 print(text.upper())  # Convert to uppercase
 print(text.lower())  # Convert to lowercase
 print(text.title())  # Convert to title case

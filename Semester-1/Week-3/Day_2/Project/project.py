@@ -5,7 +5,7 @@
 
 
 def clean_text(text):
-    """Strip and naormalise whitespace."""
+    """Strip and normalise whitespace."""
     return " ".join(text.strip().split())
 
 def word_stats(text):
@@ -43,6 +43,7 @@ def find_replace(text, find, replace):
 def extract_info(text):
     """Extract key info from text."""
     words = text.split()
+    clean = text.replace(" ", "").lower()
     return {
         "first_word"   : words[0],
         "last_word"    : words[-1],
@@ -50,7 +51,7 @@ def extract_info(text):
         "word_count"   : len(words),
         "has_digit"    : any(c.isdigit() for c in text),
         "has_upper"    : any(c.isupper() for c in text),
-        "is_palindrome": (text.replace(" ", "") == text.replace(" ", "").lower()[::-1]),
+        "is_palindrome": (clean == clean[::-1]),
         "is_pangram"   : set("abcdefghijklmnopqrstuvwxyz").issubset(set(text.lower())),
     }
     
@@ -74,7 +75,7 @@ def main():
         choice = input("choose(1-6):").strip()
         
         if choice == "6":
-            print("👋 Googbye!")
+            print("👋 Goodbye!")
             break
         
         if choice not in("1", "2", "3", "4", "5"):

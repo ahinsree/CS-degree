@@ -26,6 +26,6 @@ csv = "John,  30 , Engineer ,  New York "
 # Expected: ['John', '30', 'Engineer', 'New York']
 
 def clean_csv(s):
-    print([item.strip() for item in s.split(',')])
+    return([item.strip() for item in s.split(',')])
     
-clean_csv("John,  30 , Engineer ,  New York ")
+print(clean_csv("John,  30 , Engineer ,  New York "))

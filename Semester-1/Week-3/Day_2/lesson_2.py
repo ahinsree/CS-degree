@@ -2,7 +2,7 @@
 
 # ── find() — returns index, -1 if not found ──
 
-text = "Hello, Python is great!. Python rocks!"
+text = "Hello, Python is great. Python rocks!"
 print(text.find("Python"))
 print(text.find("Python", 10))  # Start searching from index 10
 print(text.find("Java"))  # Not found, returns -1
@@ -37,7 +37,7 @@ if filename.endswith((".pdf", ".PDF", ".docx")):
     
 # works with startswith too!
 if filename.startswith(("rep", "Sum", "doc")):
-    print("✅ Vailid filename prefix")
+    print("✅ Valid filename prefix")
     
 # ── in operator — simplest existence check ───
 print("Python" in text)  # True

@@ -8,7 +8,7 @@ print("12345".isdigit())        # True  — all digits
 print("12.5".isdigit())         # False — dot is not digit
 print("hello1".isalnum())       # True  — letters AND digits
 print(" ".isspace())            # True  — only spaces
-print("".isspace())             # True  — empty string
+print("".isspace())             # False — empty string
 print("".isalpha())             # False — empty string
 
 # ── Case tests ───────────────────────────────
